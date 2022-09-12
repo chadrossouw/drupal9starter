@@ -1,0 +1,19 @@
+name: Ex Libris ANCL
+type: theme
+description: Base Theme for LBR
+package: Other
+version: 1.x
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: ex_libris
+libraries:
+    - ex_libris/global-styling
+    - ex_libris/global-scripts
+    - ex_libris/fonts
+regions:
+    header: Header
+    hero: Hero
+    sidebar_left: Sidebar Left
+    content: Content
+    sidebar_right: Sidebar Right
+    footer: Footer

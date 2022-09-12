@@ -1,0 +1,1 @@
+{"version":3,"file":"app.js","names":["navigation","video"],"sources":["app.js"],"mappings":"OAAOA,eAAgB,sBAChBC,UAAW,UAElBD,aACAC","sourcesContent":["import navigation from './navigation';\r\nimport video from './video';\r\n\r\nnavigation();\r\nvideo(); "]}

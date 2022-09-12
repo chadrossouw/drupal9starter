@@ -1,0 +1,44 @@
+.grid{
+    display:grid;
+}
+
+.flex{
+    display:flex;
+    justify-content:space-between;
+    &.flex-100{
+        .flex-item{
+            flex-basis:100%;
+        }
+    }
+    &.flex-50{
+        .flex-item{
+            flex-basis:48%;
+        }
+    }
+    &.flex-33{
+        .flex-item{
+            flex-basis:31%;
+        }
+    }
+    &.flex-25{
+        .flex-item{
+            flex-basis:23%;
+        }
+    }
+
+}
+
+.margins{
+    margin-left:var(--margin);
+    margin-right:var(--margin);
+}
+
+.padding{
+    padding-left:var(--margin);
+    padding-right:var(--padding);
+}
+
+:root{
+    --margin:5vw;
+    --header-height:120px;
+}

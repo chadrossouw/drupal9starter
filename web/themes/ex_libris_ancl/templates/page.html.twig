@@ -1,0 +1,44 @@
+{#
+/**
+ * @file
+ *A single page for Researchers Platform.
+ *
+ 
+#}
+
+hero: Hero
+    sidebar_left: Sidebar Left
+    content: Content
+    sidebar-right: Sidebar Right
+
+<div id="page-wrapper">
+  <div id="page">
+    {% include '@ex_libris/templates/partials/header.html.twig' %}
+    <div class="body-container {{ theme_hook_suggestions[0] }} grid page-grid" id="{{ node.getType() }}">
+      {% if page.hero %}
+        <section class="hero page-grid__item">
+          {{ page.hero }}
+        </section>
+      {% endif %}
+      {% if page.sidebar_left %}
+        <aside class="sidebar sidebar-left page-grid__item">
+          {{ page.sidebar_left }}
+        </aside>
+      {% endif %}
+      {% if page.content %}
+        <main class="content page-grid__item">
+          <a id="main-content" tabindex="-1"></a>
+          {{ page.content }}
+        </main>
+      {% endif %}
+      {% if page.sidebar_right %}
+        <aside class="sidebar sidebar-right page-grid__item">
+          {{ page.sidebar_right }}
+        </aside>
+      {% endif %}
+      {% if page.footer %}
+        {% include '@ex_libris/templates/partials/footer.html.twig' %}
+      {% endif %}
+    </div>
+  </div>  
+</div>

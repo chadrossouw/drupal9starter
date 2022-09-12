@@ -1,0 +1,18 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/main.min.css: {}
+global-scripts:
+  version: 1.x
+  js:
+    js/app.min.js: {}
+    js/ex_libris.min.js: {}
+  dependencies:
+    - core/drupal.dialog.ajax
+    - core/jquery
+fonts:
+  css:
+    theme:
+      "https://fonts.googleapis.com/css2?family=Bitter:wght@400;600&family=Work+Sans:ital,wght@0,400;0,600;1,400&display=swap": { external: true }
+

@@ -1,0 +1,30 @@
+@mixin media700{
+    @media screen and (min-width:700px){@content;}
+}
+@mixin media1000{
+    @media screen and (min-width:1000px){@content;}
+}
+@mixin media1200{
+    @media screen and (min-width:1200px){@content;}
+}
+
+@mixin media1800{
+    @media screen and (min-width:1800px){@content;}
+}
+
+@mixin proportional-container($ratio){
+	position: relative;
+	width:100%;
+	height:0;
+	overflow: hidden;
+	padding-top:$ratio;
+}
+
+@mixin proportional-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

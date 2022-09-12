@@ -1,0 +1,33 @@
+{
+  "name": "ex_libris_theme",
+  "version": "1.0.0",
+  "description": "Ex Libris Theme with Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SASS",
+    "Drupal"
+  ],
+  "devDependencies": {
+    "del": "^3.0.0",
+    "graceful-fs": "^4.2.6",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean-css": "3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^5.0.1",
+    "gulp-scss-lint": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-terser": "^2.1.0",
+    "gulp-uglify": "^3.0.0",
+    "node-sass": "^5.0.0",
+    "readable-stream": "^3.0.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
